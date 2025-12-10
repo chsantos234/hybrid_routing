@@ -1,0 +1,90 @@
+[
+  {
+    "summary": {
+      "lengthInMeters": "137",
+      "travelTimeInSeconds": "99",
+      "trafficDelayInSeconds": "0",
+      "trafficLengthInMeters": "0",
+      "departureTime": "2022-09-15T14:06:32-03:00",
+      "arrivalTime": "2022-09-15T14:08:10-03:00"
+    },
+    "leg": {
+      "summary": {
+        "lengthInMeters": "137",
+        "travelTimeInSeconds": "99",
+        "trafficDelayInSeconds": "0",
+        "trafficLengthInMeters": "0",
+        "departureTime": "2022-09-15T14:06:32-03:00",
+        "arrivalTime": "2022-09-15T14:08:10-03:00"
+      },
+      "points": {
+        "point": [
+          {
+            "@latitude": -23.56057,
+            "@longitude": -46.6574
+          },
+          {
+            "@latitude": -23.55999,
+            "@longitude": -46.65801
+          },
+          {
+            "@latitude": -23.56011,
+            "@longitude": -46.65812
+          },
+          {
+            "@latitude": -23.55992,
+            "@longitude": -46.65832
+          }
+        ]
+      }
+    },
+    "guidance": {
+      "instructions": {
+        "instruction": [
+          {
+            "routeOffsetInMeters": 0,
+            "travelTimeInSeconds": 0,
+            "point": {
+              "@latitude": -23.56057,
+              "@longitude": -46.6574,
+              "@index": 0
+            },
+            "pointIndex": "0",
+            "instructionType": "LOCATION_DEPARTURE",
+            "street": "Avenida Paulista",
+            "countryCode": "BRA",
+            "possibleCombineWithNext": "false",
+            "drivingSide": "RIGHT",
+            "maneuver": "DEPART"
+          },
+          {
+            "routeOffsetInMeters": 137,
+            "travelTimeInSeconds": 99,
+            "point": {
+              "@latitude": -23.55992,
+              "@longitude": -46.65832,
+              "@index": 3
+            },
+            "pointIndex": "3",
+            "instructionType": "LOCATION_ARRIVAL",
+            "street": "Avenida Paulista",
+            "countryCode": "BRA",
+            "possibleCombineWithNext": "false",
+            "drivingSide": "RIGHT",
+            "maneuver": "ARRIVE"
+          }
+        ]
+      },
+      "instructionGroups": {
+        "instructionGroup": {
+          "@firstInstructionIndex": "0",
+          "@lastInstructionIndex": "1",
+          "groupLengthInMeters": "137"
+        }
+      }
+    },
+    "sections": {
+      "section": []
+    }
+  }
+]

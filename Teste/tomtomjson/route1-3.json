@@ -1,0 +1,107 @@
+[
+  {
+    "summary": {
+      "lengthInMeters": "102",
+      "travelTimeInSeconds": "73",
+      "trafficDelayInSeconds": "0",
+      "trafficLengthInMeters": "0",
+      "departureTime": "2022-09-15T14:06:34-03:00",
+      "arrivalTime": "2022-09-15T14:07:47-03:00"
+    },
+    "leg": {
+      "summary": {
+        "lengthInMeters": "102",
+        "travelTimeInSeconds": "73",
+        "trafficDelayInSeconds": "0",
+        "trafficLengthInMeters": "0",
+        "departureTime": "2022-09-15T14:06:34-03:00",
+        "arrivalTime": "2022-09-15T14:07:47-03:00"
+      },
+      "points": {
+        "point": [
+          {
+            "@latitude": -23.51011,
+            "@longitude": -46.65272
+          },
+          {
+            "@latitude": -23.51017,
+            "@longitude": -46.65288
+          },
+          {
+            "@latitude": -23.51074,
+            "@longitude": -46.65298
+          },
+          {
+            "@latitude": -23.51092,
+            "@longitude": -46.65301
+          }
+        ]
+      }
+    },
+    "guidance": {
+      "instructions": {
+        "instruction": [
+          {
+            "routeOffsetInMeters": 0,
+            "travelTimeInSeconds": 0,
+            "point": {
+              "@latitude": -23.5101,
+              "@longitude": -46.65271
+            },
+            "pointIndex": "0",
+            "instructionType": "LOCATION_DEPARTURE",
+            "street": "Rua Desembargador Euclides da Silveira",
+            "countryCode": "BRA",
+            "possibleCombineWithNext": "false",
+            "drivingSide": "RIGHT",
+            "maneuver": "DEPART"
+          },
+          {
+            "routeOffsetInMeters": 18,
+            "travelTimeInSeconds": 13,
+            "point": {
+              "@latitude": -23.51017,
+              "@longitude": -46.65288,
+              "@index": 1
+            },
+            "pointIndex": "1",
+            "instructionType": "TURN",
+            "street": "Avenida Braz Leme",
+            "countryCode": "BRA",
+            "junctionType": "REGULAR",
+            "turnAngleInDecimalDegrees": "-45",
+            "possibleCombineWithNext": "false",
+            "drivingSide": "RIGHT",
+            "maneuver": "BEAR_LEFT"
+          },
+          {
+            "routeOffsetInMeters": 102,
+            "travelTimeInSeconds": 73,
+            "point": {
+              "@latitude": -23.51092,
+              "@longitude": -46.65301,
+              "@index": 3
+            },
+            "pointIndex": "3",
+            "instructionType": "LOCATION_ARRIVAL",
+            "street": "Avenida Braz Leme",
+            "countryCode": "BRA",
+            "possibleCombineWithNext": "false",
+            "drivingSide": "RIGHT",
+            "maneuver": "ARRIVE"
+          }
+        ]
+      },
+      "instructionGroups": {
+        "instructionGroup": {
+          "@firstInstructionIndex": "0",
+          "@lastInstructionIndex": "2",
+          "groupLengthInMeters": "102"
+        }
+      }
+    },
+    "sections": {
+      "section": []
+    }
+  }
+]
